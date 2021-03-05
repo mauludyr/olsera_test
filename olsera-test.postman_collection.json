@@ -1,0 +1,266 @@
+{
+	"info": {
+		"_postman_id": "3285b8a7-869a-48b1-9c11-fe8f4110c40b",
+		"name": "olsera-test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "pajak-item",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:9004/api/pajakitem",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "9004",
+					"path": [
+						"api",
+						"pajakitem"
+					]
+				},
+				"description": "klkj"
+			},
+			"response": []
+		},
+		{
+			"name": "pajak",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:9004/api/pajaks/1",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "9004",
+					"path": [
+						"api",
+						"pajaks",
+						"1"
+					]
+				},
+				"description": "klkj"
+			},
+			"response": []
+		},
+		{
+			"name": "pajak create",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nama\": \"tes\",\r\n    \"rate\": 3\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:9004/api/pajaks",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "9004",
+					"path": [
+						"api",
+						"pajaks"
+					]
+				},
+				"description": "klkj"
+			},
+			"response": []
+		},
+		{
+			"name": "pajak edit",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nama\": \"pph\",\r\n    \"rate\": 1.2\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:9004/api/pajaks/1",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "9004",
+					"path": [
+						"api",
+						"pajaks",
+						"1"
+					]
+				},
+				"description": "klkj"
+			},
+			"response": []
+		},
+		{
+			"name": "pajak delete",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:9004/api/pajaks/10",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "9004",
+					"path": [
+						"api",
+						"pajaks",
+						"10"
+					]
+				},
+				"description": "klkj"
+			},
+			"response": []
+		},
+		{
+			"name": "item",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:9004/api/items",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "9004",
+					"path": [
+						"api",
+						"items"
+					]
+				},
+				"description": "klkj"
+			},
+			"response": []
+		},
+		{
+			"name": "item create",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nama\": \"test\",\r\n    \"pajak1\": 1,\r\n    \"pajak2\": 10\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:9004/api/items",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "9004",
+					"path": [
+						"api",
+						"items"
+					]
+				},
+				"description": "klkj"
+			},
+			"response": []
+		},
+		{
+			"name": "item edit",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nama\": \"asasd\",\r\n    \"pajak1\": 2,\r\n    \"pajak2\": 10\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:9004/api/items/1",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "9004",
+					"path": [
+						"api",
+						"items",
+						"1"
+					]
+				},
+				"description": "klkj"
+			},
+			"response": []
+		},
+		{
+			"name": "item delete",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:9004/api/items/3",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "9004",
+					"path": [
+						"api",
+						"items",
+						"3"
+					]
+				},
+				"description": "klkj"
+			},
+			"response": []
+		}
+	]
+}
